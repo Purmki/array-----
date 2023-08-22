@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    var arrayFruits=["banana","apple","orange","mango","grapes","watermelon"]
+//     console.log(arrayFruits[4]);
+//     var arrayVegetables=["onion","tomato","olives","carrot","celery","cucumber"]
+//   arrayVegetables[3]="cabbage";
+//   console.log(arrayVegetables);
+
+//     var arrayCountry=["israel","usa","french","england","egypt","spain"]
+   
+
+    // function callCountry(){
+    // arrayCountry[0]="japan";
+    // return arrayCountry
+    // }
+    // console.log(callCountry())
+
+
+// --------------
+    // for(i=0; i<arrayCountry.length; i++){   //לולאה על מערך
+    //    console.log(arrayCountry[i])
+    // }
+
+
+    // function addToCountry(countryName){
+    //     arrayCountry.push(countryName)
+    // }
+    // addToCountry("china")
+    // console.log(arrayCountry)
+
+
+
+    //     function isThereFruit(fruit){   //האם משתנה בתוך מערך?
+    // for(i=0; i<arrayFruits.length; i++){
+    //     if(arrayFruits[i]==fruit)
+    //     return "true";
+    // }   
+    //     console.log("dont exist");
+    //     }
+    //   var wasThere=isThereFruit("pear")
+    //     console.log(wasThere);
+
+
+
+    // var arrayKitchenTools=["knife","cutting board","mixing bowl","whisk","spatula","pot"]
+    // function sameSize(randomArray){
+    //         if(randomArray.length==arrayKitchenTools.length){ //משווה אורכים של מערכים
+    //             return console.log("yes")
+    //         }
+    //         else{
+    //             return console.log("no")
+    //         }
+    //     }
+    //     sameSize(arrayFruits)
+
+
+
+
+
+
+        
+
+
+
+    // var arrayVehicle=["tracks","car","tractor","motorcycle","buses","train"]
+    // console.log(arrayVehicle[3]);
+    
+    // console.log(arrayKitchenTools[5]);
+
+
+    // var arrayCountry=["israel","usa","french","england","egypt","spain"]// דוחף ברזיל 
+   // בסוף או בהתחלה
+    // function lessThanFive (country,number1){
+
+    //     if(number1>=5){
+    //         arrayCountry.unshift(country)
+    //     }
+    //     else{
+    //         arrayCountry.push(country)
+    //     }
+    //     return console.log(arrayCountry)
+    // }
+    // lessThanFive("brazil",4)
+
+
+
+
+
+    // var arrayKitchenTools=["knife","cutting board","mixing bowl","whisk","spatula","pot"]
+    // function newTool(tool,number1){
+    //     if(number1>=arrayKitchenTools.length){
+    //         arrayKitchenTools.push(tool)
+    //         console.log(arrayKitchenTools);   //מוסיף למערך או כותב שלא הצליח
+    //     }
+    //     else{console.log("couldnt do it")}
+    // }
+    // newTool("spoon",8)
+
+
+    // function numFromUser(){
+    //     justAnArray=[]
+    //     var num=+prompt("insert a number") //So, in simple terms, the line of code justAnArray[i] = i; is like saying, "Put the number of the box into the box itself." It's a way to fill up the array with a sequence of numbers.
+    //     for(i=0; i<num; i++){
+    //       justAnArray[i]=i
+    //     }
+
+    //     for(i=0; i<num; i++){
+    //       console.log(justAnArray[i])
+    //     }
+    // }
+    // numFromUser()
+
+
+
+
+
+    // function numFromUser(){
+    //     justAnArray=[]
+    //     var num=+prompt("insert a number") //כמו שאלה קודמת רק הפוך
+    //     for (i = num; i >= 0; i--) {
+    //     justAnArray[i] = i
+    //     }
+
+    //     for(i=0; i<num; i++){
+    //       console.log(justAnArray[i])
+    //     }
+    // }
+    // numFromUser()
+
+
+        //14
+    // function lastNameFromUser(){
+    //     soloArray=[]
+    //     for(i=0; i<4; i++){
+    //         soloArray[i]=prompt("insert a lastname") // מקבל מהמשתמש 4 שמות משפחה ועושה מהם מערך
+    //     }
+    //     return console.log(soloArray)
+    // }
+    // lastNameFromUser()
+
+
+       // 16
+    //     anArray=[5,3,7,8,11]
+    // sum=0
+    // for(i=0; i<anArray.length; i++){
+
+    //     console.log(anArray[i])
+    //     sum=sum+anArray[i]
+    // }
+    //      console.log(sum)
+
+
+
+
+
+    // var studentsArray=[ "omer","sagi","noa","matan","maya"]
+    // for(i=0; i<studentsArray.length; i++){
+    //     console.log(studentsArray[i]);
+    // }
+
+
+    //    var array=[]
+    // function numbers(arrayNum,insideNumbers){
+    //     for(i=0; i<arrayNum; i++){
+    //         array[i] = insideNumbers + i
+    //     }
+    //     return array
+    // }
+    // var result = numbers(8,13)
+    // console.log(result)
+
+
+
+//     justArray=[5,3,7,8,11]
+//     function numberInArray(number){
+//         for(i=0; i<justArray.length; i++){
+//             if (justArray[i]==number){
+//            console.log("true")
+//            return;
+           
+//         }
+//     }
+// }
+//     numberInArray(7)
+
+
+
+ 
+
+//    var justArray=[5,3,7,8,11]
+//  function maxInArray(){
+//     max = 0
+//         for(i=0; i<justArray.length; i++){
+//              if(justArray[i]>max){
+//              max=justArray[i]
+//          }
+//         }
+//         console.log(max)
+//     }
+//    maxInArray()
+
+
+
+// var justArray=[9,3,10,8,11]
+//  function minInArray(){
+//   var min = 0
+//         for(i=0; i<justArray.length; i++){
+//              if(justArray[i]<justArray[min]){
+//              min=i
+//          }
+//         }
+//         console.log(min)
+//     }
+//    minInArray()
+
+
+
+
+
+// function sumInArray(){
+// var ourArray=[9,3,10,8,11,4,8,2]
+// var sum=0
+// for(i=0; i<ourArray.length; i++){
+//     sum=sum+ourArray[i]
+// }
+// console.log(sum)
+// }
+// sumInArray()
+
+   
+
+
+// var justArray=[5,3,7,8,11]
+//  function maxTimesMinInArray(){
+//     max = 0 
+//     min = 100000
+//         for(i=0; i<justArray.length; i++){
+//              if(justArray[i]>max){
+//              max=justArray[i]
+//          }
+//          if(justArray[i]<min){
+//             min=justArray[i]
+//          }
+//         }
+//         console.log(max*min)
+//     }
+//    maxTimesMinInArray()
+
+
+
+// var studentsArray=[ "omer","sagi","noa","matan","maya"]
+// function names(namesArray,plusName){
+//     namesArray.push(plusName)
+//     console.log(namesArray)
+// }
+// names(studentsArray,"ofek")
+
+
+
+
+
+
+// function ageNameLastName(age,name,lastName){
+//     if(age>18){
+//         for(i=0; i<age; i++){
+//             console.log(name,lastName)
+//         }   
+        
+//     }
+//     else{
+//         console.log(name,lastName)
+//     }
+// }
+//  var omer=ageNameLastName(22,"omer","goldberger")
+//  console.log (omer)
+
+
+
+// function smallerThanSum(num,array){
+//     if(num<array.length){
+//     array.splice(3,3)
+//    console.log(array)
+// }
+// }
+// smallerThanSum(5,[9,3,10,8,11,4,8,2])
+
+
+
+
+
+// function copyArray(firstArray,SecondArray){
+//     if(firstArray.length==SecondArray.length){
+//         firstArray=SecondArray
+//     }
+//     console.log(firstArray);
+//     console.log(SecondArray);
+// }
+//     copyArray(["blank","blank","blank","blank","blank"],[9,3,10,8,11])
+
+
+
+
+// function numSorted (array){
+// for(i=0; i<array.length; i++){
+
+//     if(array[i]<array[i+1]){
+//         array.splice(array[i])
+//         array.unshift(array[i])
+//     }
+//     console.log(array);
+// }
+
+// }
+// numSorted([9,3,10,8,11])
+
+
+// function sevenNumbers(){
+// var array = []
+// for(i=0; i<7; i++){
+// array[i]= +prompt("insert a number")
+// if(array[i] %2 != 0){
+// console.log(array[i]);
+// }
+// }
+// }
+// sevenNumbers()
+
+
+
+
+
+// function cantOdd(){
+//     var array= []
+//     for(i=0; i<10;){
+//         array[i]= +prompt("insert a number")
+//         if(array[i] %2==0){
+//             i++
+//         }
+//         else{
+//            array.splice(i)
+//         }
+//     }
+//     console.log(array)
+// }
+// var end=cantOdd()
+// console.log(end);
+
+
+// 48
+// var array=[3,4,"hello",12,"world","melafaquai"]
+// function notANumber(){
+// for(i=0; i<array.length; i++){
+//     if(typeof array[i]==="string"){
+//         console.log("not a number")
+//     }
+//     else{
+//         console.log(array[i])
+//     }
+// }
+// }
+// notANumber()
+
+
+// 43
+// number1=+prompt("insert a number")
+// number2=+prompt("insert a number")
+
+// for(i=1; i<number1; i++){
+//     for(j=1; j<number2; j++){
+//         console.log(i*j)
+//     }
+
+// }
+
+
+
+
+            //40
+    // var age= +prompt("insert a number")
+    // var array=[]
+    // function nameAge(name){
+    //     for( i=0; i<age; i++){
+    //         array[i]=name
+    //     }
+    //     console.log(array);
+
+    // }
+    // nameAge("omer")
+
+
+
+
+    // //42
+    // var age= +prompt("insert a number")
+    // var array=[]
+    // function nameAge(){
+    //     for(i=0; i<age; i++){
+    //     array[i]=prompt("insert a name")
+    //     if(array[i]==="omer"){
+    //         console.log(array)
+    //     }        
+    // } 
+    // }
+    // nameAge()
+
+
+    
+
+        function numSorted (array){
+        for(i=0; i<array.length; i++){
+
+            if(array[i]<array[i+1]){
+                
+            }
+            console.log(array);
+        }
+
+        }
+        numSorted([9,3,10,8,11])
+
+
+   
+  </script>  
+</body>
+</html>

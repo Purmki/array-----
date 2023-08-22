@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // var colorArray= ["red" ,"black","blue","green","yellow"]
+      // function colorChange(color){
+      //     if((colorArray[2])=="blue"){
+      //         (colorArray[2])=color
+      //     }
+      // }
+      // colorChange("pink")
+      // console.log(colorArray)
+
+      //     var yearsArray= [1995 ,2001,2008,2017,2022]
+      //     function printYears(){
+      //     for(i=0;i<yearsArray.length; i++){
+      //         console.log(yearsArray[i])
+      //     }
+      // }
+      // var years= printYears()
+      // console.log(years)
+
+      // function afterTwoThousand(){
+      // for(i=0;i<yearsArray.length; i++){
+      //         if(yearsArray[i]>1999){
+      //             console.log(yearsArray[i])
+      //         }
+      //     }
+      // }
+      // var biggerYears= afterTwoThousand()
+      // console.log(biggerYears)
+
+      // console.log(colorArray[0])
+
+      //     var studentsArray=[ "omer","sagi","noa","matan","maya"]
+
+      //     function isThereName(name){
+
+      //     for(i=0;i<studentsArray.length; i++){
+      //         if(studentsArray[i]==name)
+      //         console.log("true")
+      //     }
+      // }
+      // var omer= isThereName("omer")
+      // console.log(omer)
+
+      // console.log(studentsArray[4])
+      // var animalArray= ["dog", "cat","bird","bear","horse"]
+
+      //   function parameterInArray(param, array) {
+      //     for (i = 0; i < array.length; i++) {
+      //       if (array[i] == param) return console.log("true");
+      //     }
+      //     console.log("not exist")
+      //   }
+      //   var arr1 = ["dog", "cat", "bird", "bear", "horse"];
+      //   parameterInArray("dog", arr1);
+
+// ---------------------
+      // function arrayFromUser(){
+      //   var arraySize = +prompt("array size");
+      //   var array=[]
+      //   for (var i = 0; i < arraySize; i++) {
+      //   array[i]= +prompt("insert a number")
+      //   }
+      //   return array
+      // }
+      // console.log(arrayFromUser());
+
+
+
+
+
+function arrayFromUser(){
+ var i=0
+ var array=[]
+ var numFromUser = +prompt("insert a number")
+ while(numFromUser>=10){
+  array[i]=numFromUser
+  var numFromUser = +prompt("insert a number")
+  i++
+ }
+ return console.log(array)
+}
+arrayFromUser()
+
+
+
+
+
+
+
+
+
+      // console.log(animalArray[2])
+      // var cityArray = ["tel aviv","ramat gan","jerusalem","beer sheva", "eilat"]
+      // console.log(cityArray[1])
+    </script>
+  </body>
+</html>
